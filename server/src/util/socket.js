@@ -1,8 +1,8 @@
 import http from 'http'
 import { Server } from 'socket.io'
 
-export default class SocketServer {
-    #io
+export default class SocketServer {#
+    io
     constructor({ port }) {
         this.port = port
     }
@@ -30,4 +30,3 @@ export default class SocketServer {
         })
     }
 }
-
